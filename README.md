@@ -1,4 +1,4 @@
-# 🏠 Previsão de Preços de Imóveis em São Paulo
+# Previsão de Preços de Imóveis em São Paulo
 
 Projeto desenvolvido para estudar conceitos de Machine Learning aplicados à previsão de preços de imóveis.
 
