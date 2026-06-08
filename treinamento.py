@@ -7,7 +7,10 @@ import numpy as np
 def load_data():
     path = 'C:/codigos/python/projetos com python/casas_sao_leo/data/housing_sp_city.csv'
     data = pd.read_csv(path, encoding='latin1')
+
+    bairro = pd.get_dummies(data, columns=['bairro'])
     sp_features = [
+
     'area_util',
     'banheiros',
     'suites',
